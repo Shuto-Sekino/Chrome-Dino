@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chrome Dino Runner – an open-source clone of the Chrome offline dinosaur game." />
+  <title>Dino Runner</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="game-wrapper">
+    <canvas id="gameCanvas" aria-label="Dino Runner game canvas"></canvas>
+
+    <p class="controls">
+      <kbd>Space</kbd> / <kbd>↑</kbd> Jump &nbsp;|&nbsp;
+      <kbd>↓</kbd> Duck &nbsp;|&nbsp;
+      Tap the canvas on mobile
+    </p>
+  </div>
+
+  <footer>
+    <a href="https://github.com/Shuto-Sekino/Chrome-Dino" target="_blank" rel="noopener">
+      View source on GitHub
+    </a>
+  </footer>
+
+  <!--
+    ES modules are used for clean code splitting without a build step.
+    This works in all modern browsers and on GitHub Pages as-is.
+  -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
